@@ -5,7 +5,7 @@
 // document.querySelector('#lin').addEventListener("mousemove", throttle(function(event){ _MOUSEMOVE(event);},30));
 // document.querySelector('#lin').addEventListener("mousedown", _MOUSEDOWN, true);
 
-// document.querySelector('#lin').addEventListener("touchend", _MOUSEUP);
+document.querySelector('#lin').addEventListener("touchend", _MOUSEUP);
 // document.querySelector('#lin').addEventListener("touchmove", throttle(function(event){ 
 //   event.preventDefault()
 //   _MOUSEMOVE(event);
