@@ -6,10 +6,10 @@
 // document.querySelector('#lin').addEventListener("mousedown", _MOUSEDOWN, true);
 
 document.querySelector('#lin').addEventListener("touchend", _MOUSEUP);
-// document.querySelector('#lin').addEventListener("touchmove", throttle(function(event){ 
-//   event.preventDefault()
-//   _MOUSEMOVE(event);
-// },30), false);
+document.querySelector('#lin').addEventListener("touchmove", throttle(function(event){ 
+  event.preventDefault()
+  _MOUSEMOVE(event);
+},30), false);
 document.querySelector('#lin').addEventListener("touchmove", _MOUSEDOWN, false);
 
 $(document).on('click', '#lin', function(event) {
