@@ -878,6 +878,19 @@
 <script src="engine.js"></script>
 
 <script>
+  window.onload = function() {
+      // Get the URL parameters
+      var urlParams = new URLSearchParams(window.location.search);
+      
+      // Extract the values of "start" and "destination" parameters
+      let startPoint = urlParams.get("start");
+      let destination = urlParams.get("destination");
+      
+      // Use the values to perform further actions or display them on the page
+      console.log("Start point: " + startPoint);
+      console.log("Destination: " + destination);
+  }
+
   if (screen.width <= 768) {
     $("#panel").hide(200);
   }
@@ -991,9 +1004,20 @@
     }
 
     pathElement.setAttribute("d", pathData);
-    pathElement.setAttribute("stroke", "red");
+    pathElement.setAttribute("stroke", "#2ecc71");
     pathElement.setAttribute("stroke-width", "3");
     pathElement.setAttribute("fill", "none");
+
+    // Find the HTML code using the string "ZW012"
+    const elements = document.getElementsByTagName("text");
+    for (let i = 0; i < elements.length; i++) {
+      if (elements[i].textContent === "ZW012") {
+        // Set the fill attribute of the path to "green"
+        const path = elements[i].parentNode.querySelector("path");
+        path.setAttribute("fill", "#2ecc71");
+        break; // Exit the loop if the element is found
+      }
+    }
 
     svg.appendChild(pathElement);
     document.body.appendChild(svg);
@@ -1020,7 +1044,6 @@
     const x2 = obj2.x;
     const y2 = obj2.y;
     var distance = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
-
 
     return distance;
   }
