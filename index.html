@@ -1033,17 +1033,17 @@
    // Create a new image element
    var img = new Image();
 
-// Convert the SVG to a data URL
-var svgData = new XMLSerializer().serializeToString(svg);
-var svgBlob = new Blob([svgData], { type: 'image/svg+xml;charset=utf-8' });
-var svgUrl = URL.createObjectURL(svgBlob);
+    // Convert the SVG to a data URL
+    var svgData = new XMLSerializer().serializeToString(svg);
+    var svgBlob = new Blob([svgData], { type: 'image/svg+xml;charset=utf-8' });
+    var svgUrl = URL.createObjectURL(svgBlob);
 
-// Set the source of the image element to the SVG data URL
-img.src = svgUrl;
+    // Set the source of the image element to the SVG data URL
+    img.src = svgUrl;
 
-// Append the image element to the document body
-document.body.removeChild(svg);
-document.body.appendChild(img);
+    // Append the image element to the document body
+    document.body.removeChild(svg);
+    document.body.appendChild(img);
 
 
   }
