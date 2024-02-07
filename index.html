@@ -1000,14 +1000,12 @@
     pathElement.setAttribute("stroke-width", "3");
     pathElement.setAttribute("fill", "none");
 
-    // Find the HTML code using the string "ZW012"
     const elements = document.getElementsByTagName("text");
     for (let i = 0; i < elements.length; i++) {
       if (elements[i].textContent == shelfName) {
-        // Set the fill attribute of the path to "green"
         const path = elements[i].parentNode.querySelector("path");
         path.setAttribute("fill", "#2ecc71");
-        break; // Exit the loop if the element is found
+        break;
       }
     }
 
