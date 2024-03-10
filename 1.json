@@ -1,0 +1,220 @@
+{
+    "store": {
+        "id": 1,
+        "store_name": "aaa",
+        "svg": "<svg id=\"lin\" viewBox=\"0 0 1133 794\" preserveAspectRatio=\"xMidYMin slice\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" style=\"z-index: 2; margin: 0px; padding: 0px; width: 100vw; height: 100vh; position: absolute; inset: 0px; cursor: default;\">\n\n        <defs>\n            <linearGradient id=\"gradientRed\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\" spreadMethod=\"pad\">\n                <stop offset=\"0%\" stop-color=\"#e65d5e\" stop-opacity=\"1\"\/>\n                <stop offset=\"100%\" stop-color=\"#e33b3c\" stop-opacity=\"1\"\/>\n            <\/linearGradient>\n            <linearGradient id=\"gradientYellow\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\" spreadMethod=\"pad\">\n                <stop offset=\"0%\" stop-color=\"#FDEB71\" stop-opacity=\"1\"\/>\n                <stop offset=\"100%\" stop-color=\"#F8D800\" stop-opacity=\"1\"\/>\n            <\/linearGradient>\n            <linearGradient id=\"gradientGreen\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\" spreadMethod=\"pad\">\n                <stop offset=\"0%\" stop-color=\"#c0f7d9\" stop-opacity=\"1\"\/>\n                <stop offset=\"100%\" stop-color=\"#6ce8a3\" stop-opacity=\"1\"\/>\n            <\/linearGradient>\n            <linearGradient id=\"gradientSky\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\" spreadMethod=\"pad\">\n                <stop offset=\"0%\" stop-color=\"#c4e0f4\" stop-opacity=\"1\"\/>\n                <stop offset=\"100%\" stop-color=\"#87c8f7\" stop-opacity=\"1\"\/>\n            <\/linearGradient>\n            <linearGradient id=\"gradientOrange\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\" spreadMethod=\"pad\">\n                <stop offset=\"0%\" stop-color=\"#f9ad67\" stop-opacity=\"1\"\/>\n                <stop offset=\"100%\" stop-color=\"#f97f00\" stop-opacity=\"1\"\/>\n            <\/linearGradient>\n            <linearGradient id=\"gradientWhite\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\" spreadMethod=\"pad\">\n                <stop offset=\"0%\" stop-color=\"#ffffff\" stop-opacity=\"1\"\/>\n                <stop offset=\"100%\" stop-color=\"#f0f0f0\" stop-opacity=\"1\"\/>\n            <\/linearGradient>\n            <linearGradient id=\"gradientGrey\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\" spreadMethod=\"pad\">\n                <stop offset=\"0%\" stop-color=\"#666\" stop-opacity=\"1\"\/>\n                <stop offset=\"100%\" stop-color=\"#aaa\" stop-opacity=\"1\"\/>\n            <\/linearGradient>\n            <linearGradient id=\"gradientBlue\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\" spreadMethod=\"pad\">\n                <stop offset=\"0%\" stop-color=\"#4f72a6\" stop-opacity=\"1\"\/>\n                <stop offset=\"100%\" stop-color=\"#365987\" stop-opacity=\"1\"\/>\n            <\/linearGradient>\n            <linearGradient id=\"gradientPurple\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\" spreadMethod=\"pad\">\n                <stop offset=\"0%\" stop-color=\"#E2B0FF\" stop-opacity=\"1\"\/>\n                <stop offset=\"100%\" stop-color=\"#9F44D3\" stop-opacity=\"1\"\/>\n            <\/linearGradient>\n            <linearGradient id=\"gradientPink\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\" spreadMethod=\"pad\">\n                <stop offset=\"0%\" stop-color=\"#f6c4dd\" stop-opacity=\"1\"\/>\n                <stop offset=\"100%\" stop-color=\"#f699c7\" stop-opacity=\"1\"\/>\n            <\/linearGradient>\n            <linearGradient id=\"gradientBlack\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\" spreadMethod=\"pad\">\n                <stop offset=\"0%\" stop-color=\"#3c3b3b\" stop-opacity=\"1\"\/>\n                <stop offset=\"100%\" stop-color=\"#000000\" stop-opacity=\"1\"\/>\n            <\/linearGradient>\n            <linearGradient id=\"gradientNeutral\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\" spreadMethod=\"pad\">\n                <stop offset=\"0%\" stop-color=\"#dbc6a0\" stop-opacity=\"1\"\/>\n                <stop offset=\"100%\" stop-color=\"#c69d56\" stop-opacity=\"1\"\/>\n            <\/linearGradient>\n\n            <pattern id=\"grass\" patternUnits=\"userSpaceOnUse\" width=\"256\" height=\"256\">\n                <image xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" xlink:href=\"http:\/\/127.0.0.1:8000\/Watson-Floor-Plan-Creator\/patterns\/grass.jpg\" x=\"0\" y=\"0\" width=\"256\" height=\"256\"\/>\n            <\/pattern>\n            <pattern id=\"wood\" patternUnits=\"userSpaceOnUse\" width=\"32\" height=\"256\">\n                <image xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" xlink:href=\"http:\/\/127.0.0.1:8000\/Watson-Floor-Plan-Creator\/patterns\/wood.jpg\" x=\"0\" y=\"0\" width=\"256\" height=\"256\"\/>\n            <\/pattern>\n            <pattern id=\"tiles\" patternUnits=\"userSpaceOnUse\" width=\"25\" height=\"25\">\n                <image xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" xlink:href=\"http:\/\/127.0.0.1:8000\/Watson-Floor-Plan-Creator\/patterns\/granite.jpg\" x=\"0\" y=\"0\" width=\"256\" height=\"256\"\/>\n            <\/pattern>\n            <pattern id=\"granite\" patternUnits=\"userSpaceOnUse\" width=\"256\" height=\"256\">\n                <image xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" xlink:href=\"http:\/\/127.0.0.1:8000\/Watson-Floor-Plan-Creator\/patterns\/tiles.jpg\" x=\"0\" y=\"0\" width=\"256\" height=\"256\"\/>\n            <\/pattern>\n            <pattern id=\"smallGrid\" width=\"60\" height=\"60\" patternUnits=\"userSpaceOnUse\">\n                <path d=\"M 60 0 L 0 0 0 60\" fill=\"none\" stroke=\"#777\" stroke-width=\"0.25\"\/>\n            <\/pattern>\n            <pattern id=\"grid\" width=\"180\" height=\"180\" patternUnits=\"userSpaceOnUse\">\n                <rect width=\"180\" height=\"180\" fill=\"url(#smallGrid)\"\/>\n                <path d=\"M 200 10 L 200 0 L 190 0 M 0 10 L 0 0 L 10 0 M 0 190 L 0 200 L 10 200 M 190 200 L 200 200 L 200 190\" fill=\"none\" stroke=\"#999\" stroke-width=\"0.8\"\/>\n            <\/pattern>\n            <pattern id=\"hatch\" width=\"5\" height=\"5\" patternTransform=\"rotate(50 0 0)\" patternUnits=\"userSpaceOnUse\">\n                <path d=\"M 0 0 L 0 5 M 10 0 L 10 10 Z\" style=\"stroke:#666;stroke-width:5;\"\/>\n            <\/pattern>\n        <\/defs>\n        <g id=\"boxgrid\">\n            <rect width=\"8000\" height=\"5000\" x=\"-3500\" y=\"-2000\" fill=\"url(#grid)\"\/>\n        <\/g>\n        <g id=\"boxpath\"\/>\n        <g id=\"boxSurface\"><path d=\"M369,241 L431,545 L928,663 L958,174 L369,241\" fill=\"#fff\" fill-opacity=\"1\" stroke=\"none\" fill-rule=\"evenodd\" class=\"room\"\/><\/g>\n        <g id=\"boxRoom\"><path d=\"M369,241 L431,545 L928,663 L958,174 L369,241\" fill=\"url(#gradientWhite)\" fill-opacity=\"1\" stroke=\"none\" fill-rule=\"evenodd\" class=\"room\"\/><\/g>\n        <g id=\"boxwall\"><path d=\"M380.9805382110003,249.7016781328939 L357.01946178899976,232.29832186710587 L422.47764433510685,553.2545717705989 L439.5223556648931,536.7454282294007 Z\" stroke=\"none\" fill=\"#666\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"4\" fill-rule=\"nonzero\" fill-opacity=\"1\" stroke-opacity=\"1\"\/><path d=\"M439.5223556648931,536.7454282294009 L422.47764433510685,553.254571770599 L937.2534645724724,675.474987843052 L918.7465354275275,650.5250121569479 Z\" stroke=\"none\" fill=\"#666\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"4\" fill-rule=\"nonzero\" fill-opacity=\"1\" stroke-opacity=\"1\"\/><path d=\"M918.7465354275275,650.5250121569479 L937.2534645724724,675.4749878430521 L968.7110030356425,162.71711089337805 L947.2889969643575,185.28288910662013 Z\" stroke=\"none\" fill=\"#666\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"4\" fill-rule=\"nonzero\" fill-opacity=\"1\" stroke-opacity=\"1\"\/><path d=\"M947.2889969643575,185.28288910662064 L968.7110030356425,162.7171108933793 L357.01946178899976,232.29832186710607 L380.9805382110003,249.7016781328939 Z\" stroke=\"none\" fill=\"#666\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"4\" fill-rule=\"nonzero\" fill-opacity=\"1\" stroke-opacity=\"1\"\/><\/g>\n        <g id=\"boxcarpentry\"><g transform=\"translate(471,456) rotate(0,0,0) scale(1, 1)\"><path d=\"M -25,-75 L -25,75 L 25,75 L 25,-75 Z\" stroke-width=\"1\" fill=\"#fff\" stroke=\"#000\" stroke-dasharray=\"\"\/><text x=\"0\" y=\"0\" font-size=\"0.9em\" stroke=\"#000\" stroke-width=\"0.4px\" font-family=\"roboto\" text-anchor=\"middle\" fill=\"#000\">a<\/text><\/g><g transform=\"translate(655,461) rotate(0,0,0) scale(1, 1)\"><path d=\"M -25,-75 L -25,75 L 25,75 L 25,-75 Z\" stroke-width=\"1\" fill=\"#fff\" stroke=\"#000\" stroke-dasharray=\"\"\/><text x=\"0\" y=\"0\" font-size=\"0.9em\" stroke=\"#000\" stroke-width=\"0.4px\" font-family=\"roboto\" text-anchor=\"middle\" fill=\"#000\">b<\/text><\/g><g transform=\"translate(885,556) rotate(0,0,0) scale(1, 1)\"><path d=\"M -25,-75 L -25,75 L 25,75 L 25,-75 Z\" stroke-width=\"1\" fill=\"#fff\" stroke=\"#000\" stroke-dasharray=\"\"\/><text x=\"0\" y=\"0\" font-size=\"0.9em\" stroke=\"#000\" stroke-width=\"0.4px\" font-family=\"roboto\" text-anchor=\"middle\" fill=\"#000\">c<\/text><\/g><g transform=\"translate(893,322) rotate(0,0,0) scale(1, 1)\"><path d=\"M -25,-75 L -25,75 L 25,75 L 25,-75 Z\" stroke-width=\"1\" fill=\"#fff\" stroke=\"#000\" stroke-dasharray=\"\"\/><text x=\"0\" y=\"0\" font-size=\"0.9em\" stroke=\"#000\" stroke-width=\"0.4px\" font-family=\"roboto\" text-anchor=\"middle\" fill=\"#000\">d<\/text><\/g><\/g>\n        <g id=\"boxEnergy\"\/>\n        <g id=\"boxFurniture\"\/>\n        <g id=\"boxbind\"\/>\n        \n        \n        <g id=\"boxScale\" style=\"display: inline;\"><path d=\"m998,174 l60,0 m-40,10 l10,-10 l10,10 m-10,-10 l0,489 m-30,0 l60,0 m-40,-10 l10,10 l10,-10M369,134 l0,-60 m10,40 l-10,-10 l10,-10 m-10,10 l589,0 m0,30 l0,-60 m-10,40 l10,-10 l-10,-10\" stroke=\"#555\" fill=\"none\" stroke-width=\"0.3\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"4\" fill-rule=\"nonzero\"\/><text x=\"1028\" y=\"453.5\" fill=\"#555\" text-anchor=\"middle\" transform=\"rotate(270 1028,418.5)\">8.15 m<\/text><text x=\"663.5\" y=\"79\" fill=\"#555\" text-anchor=\"middle\">9.82 m<\/text><\/g>\n        <g id=\"boxText\"\/>\n        <g id=\"boxDebug\"\/>\n    <\/svg>",
+        "json_Data": "{\"data\":[{\"objData\":[{\"family\":\"free\",\"class\":\"column\",\"type\":\"simpleColumn\",\"x\":536,\"y\":382,\"angle\":0,\"angleSign\":0,\"limit\":[],\"hinge\":\"normal\",\"graph\":{\"0\":{},\"context\":{},\"length\":1},\"scale\":{\"x\":1,\"y\":1},\"value\":\"#eee\",\"size\":45,\"thick\":45,\"width\":\"0.75\",\"fill\":\"#eee\",\"bbox\":{\"x\":386,\"y\":232,\"width\":300,\"height\":300,\"top\":232,\"right\":686,\"bottom\":532,\"left\":386},\"realBbox\":[{\"x\":513.5,\"y\":359.5},{\"x\":558.5,\"y\":359.5},{\"x\":558.5,\"y\":404.5},{\"x\":513.5,\"y\":404.5}],\"params\":{\"bindBox\":true,\"move\":true,\"resize\":true,\"resizeLimit\":{\"width\":{\"min\":10,\"max\":1000},\"height\":{\"min\":10,\"max\":1000},\"columnHeight\":{\"min\":10,\"max\":1000}},\"rotate\":false,\"columnHeight\":true,\"beamHeight\":false,\"waistSlabThickness\":false,\"stepsBase\":false,\"stepsHeight\":false,\"slabFloorOffsetHeight\":false,\"typeColumn\":true,\"typeBeam\":false,\"typeSlabFloor\":false,\"demolish\":true,\"width\":45,\"height\":45},\"volume\":\"NaN\",\"beaconID\":\"2\"},{\"family\":\"free\",\"class\":\"column\",\"type\":\"simpleColumn\",\"x\":815,\"y\":463,\"angle\":0,\"angleSign\":0,\"limit\":[],\"hinge\":\"normal\",\"graph\":{\"0\":{},\"context\":{},\"length\":1},\"scale\":{\"x\":1,\"y\":1},\"value\":\"#eee\",\"size\":45,\"thick\":45,\"width\":\"0.75\",\"fill\":\"#eee\",\"bbox\":{\"x\":665,\"y\":313,\"width\":300,\"height\":300,\"top\":313,\"right\":965,\"bottom\":613,\"left\":665},\"realBbox\":[{\"x\":792.5,\"y\":440.5},{\"x\":837.5,\"y\":440.5},{\"x\":837.5,\"y\":485.5},{\"x\":792.5,\"y\":485.5}],\"params\":{\"bindBox\":true,\"move\":true,\"resize\":true,\"resizeLimit\":{\"width\":{\"min\":10,\"max\":1000},\"height\":{\"min\":10,\"max\":1000},\"columnHeight\":{\"min\":10,\"max\":1000}},\"rotate\":false,\"columnHeight\":true,\"beamHeight\":false,\"waistSlabThickness\":false,\"stepsBase\":false,\"stepsHeight\":false,\"slabFloorOffsetHeight\":false,\"typeColumn\":true,\"typeBeam\":false,\"typeSlabFloor\":false,\"demolish\":true,\"width\":45,\"height\":45},\"volume\":\"NaN\",\"beaconID\":\"1\"},{\"family\":\"free\",\"class\":\"stair\",\"type\":\"simpleStair\",\"x\":471,\"y\":456,\"angle\":0,\"angleSign\":0,\"limit\":[],\"hinge\":\"normal\",\"graph\":{\"0\":{},\"context\":{},\"length\":1},\"scale\":{\"x\":1,\"y\":1},\"value\":15,\"size\":50,\"thick\":150,\"width\":\"0.83\",\"fill\":\"#eee\",\"bbox\":{\"x\":446,\"y\":381,\"width\":50,\"height\":150,\"top\":381,\"right\":496,\"bottom\":531,\"left\":446},\"realBbox\":[{\"x\":446,\"y\":381},{\"x\":496,\"y\":381},{\"x\":496,\"y\":531},{\"x\":446,\"y\":531}],\"params\":{\"bindBox\":true,\"move\":true,\"resize\":true,\"resizeLimit\":{\"width\":{\"min\":40,\"max\":200},\"height\":{\"min\":40,\"max\":400},\"columnHeight\":{\"min\":false,\"max\":false}},\"rotate\":true,\"columnHeight\":false,\"beamHeight\":false,\"waistSlabThickness\":true,\"stepsBase\":true,\"stepsHeight\":true,\"slabFloorOffsetHeight\":false,\"typeColumn\":false,\"typeBeam\":false,\"typeSlabFloor\":false,\"demolish\":false,\"width\":50,\"height\":150},\"volume\":\"NaN\",\"shelfID\":\"d\"},{\"family\":\"free\",\"class\":\"stair\",\"type\":\"simpleStair\",\"x\":655,\"y\":461,\"angle\":0,\"angleSign\":0,\"limit\":[],\"hinge\":\"normal\",\"graph\":{\"0\":{},\"context\":{},\"length\":1},\"scale\":{\"x\":1,\"y\":1},\"value\":15,\"size\":50,\"thick\":150,\"width\":\"0.83\",\"fill\":\"#eee\",\"bbox\":{\"x\":630,\"y\":386,\"width\":50,\"height\":150,\"top\":386,\"right\":680,\"bottom\":536,\"left\":630},\"realBbox\":[{\"x\":630,\"y\":386},{\"x\":680,\"y\":386},{\"x\":680,\"y\":536},{\"x\":630,\"y\":536}],\"params\":{\"bindBox\":true,\"move\":true,\"resize\":true,\"resizeLimit\":{\"width\":{\"min\":40,\"max\":200},\"height\":{\"min\":40,\"max\":400},\"columnHeight\":{\"min\":false,\"max\":false}},\"rotate\":true,\"columnHeight\":false,\"beamHeight\":false,\"waistSlabThickness\":true,\"stepsBase\":true,\"stepsHeight\":true,\"slabFloorOffsetHeight\":false,\"typeColumn\":false,\"typeBeam\":false,\"typeSlabFloor\":false,\"demolish\":false,\"width\":50,\"height\":150},\"volume\":\"NaN\",\"shelfID\":\"c\"},{\"family\":\"free\",\"class\":\"stair\",\"type\":\"simpleStair\",\"x\":885,\"y\":556,\"angle\":0,\"angleSign\":0,\"limit\":[],\"hinge\":\"normal\",\"graph\":{\"0\":{},\"context\":{},\"length\":1},\"scale\":{\"x\":1,\"y\":1},\"value\":15,\"size\":50,\"thick\":150,\"width\":\"0.83\",\"fill\":\"#eee\",\"bbox\":{\"x\":860,\"y\":481,\"width\":50,\"height\":150,\"top\":481,\"right\":910,\"bottom\":631,\"left\":860},\"realBbox\":[{\"x\":860,\"y\":481},{\"x\":910,\"y\":481},{\"x\":910,\"y\":631},{\"x\":860,\"y\":631}],\"params\":{\"bindBox\":true,\"move\":true,\"resize\":true,\"resizeLimit\":{\"width\":{\"min\":40,\"max\":200},\"height\":{\"min\":40,\"max\":400},\"columnHeight\":{\"min\":false,\"max\":false}},\"rotate\":true,\"columnHeight\":false,\"beamHeight\":false,\"waistSlabThickness\":true,\"stepsBase\":true,\"stepsHeight\":true,\"slabFloorOffsetHeight\":false,\"typeColumn\":false,\"typeBeam\":false,\"typeSlabFloor\":false,\"demolish\":false,\"width\":50,\"height\":150},\"volume\":\"NaN\",\"shelfID\":\"b\"},{\"family\":\"free\",\"class\":\"stair\",\"type\":\"simpleStair\",\"x\":893,\"y\":322,\"angle\":0,\"angleSign\":0,\"limit\":[],\"hinge\":\"normal\",\"graph\":{\"0\":{},\"context\":{},\"length\":1},\"scale\":{\"x\":1,\"y\":1},\"value\":15,\"size\":50,\"thick\":150,\"width\":\"0.83\",\"fill\":\"#eee\",\"bbox\":{\"x\":868,\"y\":247,\"width\":50,\"height\":150,\"top\":247,\"right\":918,\"bottom\":397,\"left\":868},\"realBbox\":[{\"x\":868,\"y\":247},{\"x\":918,\"y\":247},{\"x\":918,\"y\":397},{\"x\":868,\"y\":397}],\"params\":{\"bindBox\":true,\"move\":true,\"resize\":true,\"resizeLimit\":{\"width\":{\"min\":40,\"max\":200},\"height\":{\"min\":40,\"max\":400},\"columnHeight\":{\"min\":false,\"max\":false}},\"rotate\":true,\"columnHeight\":false,\"beamHeight\":false,\"waistSlabThickness\":true,\"stepsBase\":true,\"stepsHeight\":true,\"slabFloorOffsetHeight\":false,\"typeColumn\":false,\"typeBeam\":false,\"typeSlabFloor\":false,\"demolish\":false,\"width\":50,\"height\":150},\"volume\":\"NaN\",\"shelfID\":\"a\"}],\"wallData\":[{\"thick\":20,\"start\":{\"x\":369,\"y\":241},\"end\":{\"x\":431,\"y\":545},\"type\":\"normal\",\"parent\":3,\"child\":1,\"angle\":1.369608117620367,\"equations\":{\"up\":{\"A\":4.903225806451612,\"B\":-1618.3319285791072},\"down\":{\"A\":4.903225806451614,\"B\":-1518.2487165821835},\"base\":{\"A\":4.903225806451613,\"B\":-1568.2903225806454}},\"coords\":[{\"x\":380.9805382110003,\"y\":249.7016781328939},{\"x\":357.01946178899976,\"y\":232.29832186710587},{\"x\":422.47764433510685,\"y\":553.2545717705989},{\"x\":439.5223556648931,\"y\":536.7454282294007}],\"backUp\":false,\"wall_length\":\"5.17\",\"wall_length_x\":\"5.17\",\"wall_length_y\":0,\"graph\":{\"0\":{},\"context\":{},\"length\":1},\"surface_area\":\"1.72\",\"transverse_area\":\"NaN\"},{\"thick\":20,\"start\":{\"x\":431,\"y\":545},\"end\":{\"x\":928,\"y\":663},\"type\":\"normal\",\"parent\":0,\"child\":2,\"angle\":0.23310837547670787,\"equations\":{\"up\":{\"A\":0.23742454728370221,\"B\":432.39203191459734},\"down\":{\"A\":0.23742454728370221,\"B\":452.9480083268513},\"base\":{\"A\":0.23742454728370221,\"B\":442.67002012072436}},\"coords\":[{\"x\":439.5223556648931,\"y\":536.7454282294009},{\"x\":422.47764433510685,\"y\":553.254571770599},{\"x\":937.2534645724724,\"y\":675.474987843052},{\"x\":918.7465354275275,\"y\":650.5250121569479}],\"backUp\":false,\"wall_length\":\"8.51\",\"wall_length_x\":\"8.51\",\"wall_length_y\":0,\"graph\":{\"0\":{},\"context\":{},\"length\":1},\"surface_area\":\"2.84\",\"transverse_area\":\"NaN\"},{\"thick\":20,\"start\":{\"x\":928,\"y\":663},\"end\":{\"x\":958,\"y\":174},\"type\":\"normal\",\"parent\":1,\"child\":3,\"angle\":-1.5095234292079862,\"equations\":{\"up\":{\"A\":-16.299999999999997,\"B\":15626.093539625645},\"down\":{\"A\":-16.3,\"B\":15952.706460374353},\"base\":{\"A\":-16.3,\"B\":15789.400000000001}},\"coords\":[{\"x\":918.7465354275275,\"y\":650.5250121569479},{\"x\":937.2534645724724,\"y\":675.4749878430521},{\"x\":968.7110030356425,\"y\":162.71711089337805},{\"x\":947.2889969643575,\"y\":185.28288910662013}],\"backUp\":false,\"wall_length\":\"8.17\",\"wall_length_x\":\"8.17\",\"wall_length_y\":0,\"graph\":{\"0\":{},\"context\":{},\"length\":1},\"surface_area\":\"2.72\",\"transverse_area\":\"NaN\"},{\"thick\":20,\"start\":{\"x\":958,\"y\":174},\"end\":{\"x\":369,\"y\":241},\"type\":\"normal\",\"parent\":2,\"child\":0,\"angle\":3.028327390639096,\"equations\":{\"up\":{\"A\":-0.11375212224108659,\"B\":293.03902288694655},\"down\":{\"A\":-0.11375212224108659,\"B\":272.9100433269753},\"base\":{\"A\":-0.11375212224108659,\"B\":282.97453310696096}},\"coords\":[{\"x\":947.2889969643575,\"y\":185.28288910662064},{\"x\":968.7110030356425,\"y\":162.7171108933793},{\"x\":357.01946178899976,\"y\":232.29832186710607},{\"x\":380.9805382110003,\"y\":249.7016781328939}],\"backUp\":false,\"wall_length\":\"9.88\",\"wall_length_x\":\"9.88\",\"wall_length_y\":0,\"graph\":{\"0\":{},\"context\":{},\"length\":1},\"surface_area\":\"3.29\",\"transverse_area\":\"NaN\"}],\"roomData\":[{\"coords\":[{\"x\":369,\"y\":241},{\"x\":431,\"y\":545},{\"x\":928,\"y\":663},{\"x\":958,\"y\":174},{\"x\":369,\"y\":241}],\"coordsOutside\":[{\"x\":422.47764433510685,\"y\":553.2545717705989},{\"x\":937.2534645724724,\"y\":675.474987843052},{\"x\":968.7110030356425,\"y\":162.71711089337805},{\"x\":357.01946178899976,\"y\":232.29832186710607},{\"x\":422.47764433510685,\"y\":553.2545717705989}],\"coordsInside\":[{\"x\":439.5223556648931,\"y\":536.7454282294007},{\"x\":918.7465354275275,\"y\":650.5250121569479},{\"x\":947.2889969643575,\"y\":185.28288910662013},{\"x\":380.9805382110003,\"y\":249.7016781328939},{\"x\":439.5223556648931,\"y\":536.7454282294007}],\"inside\":[],\"way\":[\"1\",\"0\",\"2\",\"3\",\"1\"],\"area\":196264.66,\"surface\":\"\",\"name\":\"\",\"color\":\"gradientWhite\",\"showSurface\":true,\"action\":\"add\"}]}],\"floors\":1,\"wall_length_floor_1\":\"31.73\",\"wall_length_x_floor_1\":\"31.73\",\"wall_length_y_floor_1\":\"0.00\",\"total_wall_length\":\"31.73\",\"total_damage_wall\":\"0.00\",\"total_demolish_wall\":\"0.00\",\"total_wall_length_x_floor\":\"31.73\",\"total_wall_length_y_floor\":\"0.00\"}",
+        "created_at": "2024-02-10T04:13:54.000000Z",
+        "updated_at": "2024-02-10T04:13:54.000000Z"
+    },
+    "shelves": [
+        {
+            "id": 1,
+            "store_id": 1,
+            "name": "d",
+            "json_data": "{\"family\":\"free\",\"class\":\"stair\",\"type\":\"simpleStair\",\"x\":471,\"y\":456,\"angle\":0,\"angleSign\":0,\"limit\":[],\"hinge\":\"normal\",\"graph\":{\"0\":[],\"context\":[],\"length\":1},\"scale\":{\"x\":1,\"y\":1},\"value\":15,\"size\":50,\"thick\":150,\"width\":\"0.83\",\"fill\":\"#eee\",\"bbox\":{\"x\":446,\"y\":381,\"width\":50,\"height\":150,\"top\":381,\"right\":496,\"bottom\":531,\"left\":446},\"realBbox\":[{\"x\":446,\"y\":381},{\"x\":496,\"y\":381},{\"x\":496,\"y\":531},{\"x\":446,\"y\":531}],\"params\":{\"bindBox\":true,\"move\":true,\"resize\":true,\"resizeLimit\":{\"width\":{\"min\":40,\"max\":200},\"height\":{\"min\":40,\"max\":400},\"columnHeight\":{\"min\":false,\"max\":false}},\"rotate\":true,\"columnHeight\":false,\"beamHeight\":false,\"waistSlabThickness\":true,\"stepsBase\":true,\"stepsHeight\":true,\"slabFloorOffsetHeight\":false,\"typeColumn\":false,\"typeBeam\":false,\"typeSlabFloor\":false,\"demolish\":false,\"width\":50,\"height\":150},\"volume\":\"NaN\",\"shelfID\":\"d\"}",
+            "created_at": "2024-02-10T04:13:54.000000Z",
+            "updated_at": "2024-02-10T04:13:54.000000Z",
+            "products": [
+                {
+                    "id": 8,
+                    "shelf_id": 1,
+                    "product_id": 1,
+                    "created_at": "2024-02-10 04:15:00",
+                    "updated_at": "2024-02-10 04:15:00",
+                    "product": {
+                        "id": 1,
+                        "product_name": "1",
+                        "price": 1,
+                        "image": "images\/products\/1.png",
+                        "created_at": "2024-02-10T04:14:17.000000Z",
+                        "updated_at": "2024-02-10T04:14:17.000000Z"
+                    }
+                },
+                {
+                    "id": 9,
+                    "shelf_id": 1,
+                    "product_id": 4,
+                    "created_at": "2024-02-10 04:15:02",
+                    "updated_at": "2024-02-10 04:15:02",
+                    "product": {
+                        "id": 4,
+                        "product_name": "4",
+                        "price": 4,
+                        "image": "images\/products\/4.jpg",
+                        "created_at": "2024-02-10T04:14:37.000000Z",
+                        "updated_at": "2024-02-10T04:14:37.000000Z"
+                    }
+                },
+                {
+                    "id": 10,
+                    "shelf_id": 1,
+                    "product_id": 3,
+                    "created_at": "2024-02-10 04:15:03",
+                    "updated_at": "2024-02-10 04:15:03",
+                    "product": {
+                        "id": 3,
+                        "product_name": "3",
+                        "price": 3,
+                        "image": "images\/products\/3.jpg",
+                        "created_at": "2024-02-10T04:14:29.000000Z",
+                        "updated_at": "2024-02-10T04:14:29.000000Z"
+                    }
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "store_id": 1,
+            "name": "c",
+            "json_data": "{\"family\":\"free\",\"class\":\"stair\",\"type\":\"simpleStair\",\"x\":655,\"y\":461,\"angle\":0,\"angleSign\":0,\"limit\":[],\"hinge\":\"normal\",\"graph\":{\"0\":[],\"context\":[],\"length\":1},\"scale\":{\"x\":1,\"y\":1},\"value\":15,\"size\":50,\"thick\":150,\"width\":\"0.83\",\"fill\":\"#eee\",\"bbox\":{\"x\":630,\"y\":386,\"width\":50,\"height\":150,\"top\":386,\"right\":680,\"bottom\":536,\"left\":630},\"realBbox\":[{\"x\":630,\"y\":386},{\"x\":680,\"y\":386},{\"x\":680,\"y\":536},{\"x\":630,\"y\":536}],\"params\":{\"bindBox\":true,\"move\":true,\"resize\":true,\"resizeLimit\":{\"width\":{\"min\":40,\"max\":200},\"height\":{\"min\":40,\"max\":400},\"columnHeight\":{\"min\":false,\"max\":false}},\"rotate\":true,\"columnHeight\":false,\"beamHeight\":false,\"waistSlabThickness\":true,\"stepsBase\":true,\"stepsHeight\":true,\"slabFloorOffsetHeight\":false,\"typeColumn\":false,\"typeBeam\":false,\"typeSlabFloor\":false,\"demolish\":false,\"width\":50,\"height\":150},\"volume\":\"NaN\",\"shelfID\":\"c\"}",
+            "created_at": "2024-02-10T04:13:54.000000Z",
+            "updated_at": "2024-02-10T04:13:54.000000Z",
+            "products": [
+                {
+                    "id": 6,
+                    "shelf_id": 2,
+                    "product_id": 1,
+                    "created_at": "2024-02-10 04:14:56",
+                    "updated_at": "2024-02-10 04:14:56",
+                    "product": {
+                        "id": 1,
+                        "product_name": "1",
+                        "price": 1,
+                        "image": "images\/products\/1.png",
+                        "created_at": "2024-02-10T04:14:17.000000Z",
+                        "updated_at": "2024-02-10T04:14:17.000000Z"
+                    }
+                },
+                {
+                    "id": 7,
+                    "shelf_id": 2,
+                    "product_id": 3,
+                    "created_at": "2024-02-10 04:14:57",
+                    "updated_at": "2024-02-10 04:14:57",
+                    "product": {
+                        "id": 3,
+                        "product_name": "3",
+                        "price": 3,
+                        "image": "images\/products\/3.jpg",
+                        "created_at": "2024-02-10T04:14:29.000000Z",
+                        "updated_at": "2024-02-10T04:14:29.000000Z"
+                    }
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "store_id": 1,
+            "name": "b",
+            "json_data": "{\"family\":\"free\",\"class\":\"stair\",\"type\":\"simpleStair\",\"x\":885,\"y\":556,\"angle\":0,\"angleSign\":0,\"limit\":[],\"hinge\":\"normal\",\"graph\":{\"0\":[],\"context\":[],\"length\":1},\"scale\":{\"x\":1,\"y\":1},\"value\":15,\"size\":50,\"thick\":150,\"width\":\"0.83\",\"fill\":\"#eee\",\"bbox\":{\"x\":860,\"y\":481,\"width\":50,\"height\":150,\"top\":481,\"right\":910,\"bottom\":631,\"left\":860},\"realBbox\":[{\"x\":860,\"y\":481},{\"x\":910,\"y\":481},{\"x\":910,\"y\":631},{\"x\":860,\"y\":631}],\"params\":{\"bindBox\":true,\"move\":true,\"resize\":true,\"resizeLimit\":{\"width\":{\"min\":40,\"max\":200},\"height\":{\"min\":40,\"max\":400},\"columnHeight\":{\"min\":false,\"max\":false}},\"rotate\":true,\"columnHeight\":false,\"beamHeight\":false,\"waistSlabThickness\":true,\"stepsBase\":true,\"stepsHeight\":true,\"slabFloorOffsetHeight\":false,\"typeColumn\":false,\"typeBeam\":false,\"typeSlabFloor\":false,\"demolish\":false,\"width\":50,\"height\":150},\"volume\":\"NaN\",\"shelfID\":\"b\"}",
+            "created_at": "2024-02-10T04:13:54.000000Z",
+            "updated_at": "2024-02-10T04:13:54.000000Z",
+            "products": [
+                {
+                    "id": 3,
+                    "shelf_id": 3,
+                    "product_id": 1,
+                    "created_at": "2024-02-10 04:14:50",
+                    "updated_at": "2024-02-10 04:14:50",
+                    "product": {
+                        "id": 1,
+                        "product_name": "1",
+                        "price": 1,
+                        "image": "images\/products\/1.png",
+                        "created_at": "2024-02-10T04:14:17.000000Z",
+                        "updated_at": "2024-02-10T04:14:17.000000Z"
+                    }
+                },
+                {
+                    "id": 4,
+                    "shelf_id": 3,
+                    "product_id": 3,
+                    "created_at": "2024-02-10 04:14:51",
+                    "updated_at": "2024-02-10 04:14:51",
+                    "product": {
+                        "id": 3,
+                        "product_name": "3",
+                        "price": 3,
+                        "image": "images\/products\/3.jpg",
+                        "created_at": "2024-02-10T04:14:29.000000Z",
+                        "updated_at": "2024-02-10T04:14:29.000000Z"
+                    }
+                },
+                {
+                    "id": 5,
+                    "shelf_id": 3,
+                    "product_id": 2,
+                    "created_at": "2024-02-10 04:14:53",
+                    "updated_at": "2024-02-10 04:14:53",
+                    "product": {
+                        "id": 2,
+                        "product_name": "2",
+                        "price": 2,
+                        "image": "images\/products\/2.jpg",
+                        "created_at": "2024-02-10T04:14:23.000000Z",
+                        "updated_at": "2024-02-10T04:14:23.000000Z"
+                    }
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "store_id": 1,
+            "name": "a",
+            "json_data": "{\"family\":\"free\",\"class\":\"stair\",\"type\":\"simpleStair\",\"x\":893,\"y\":322,\"angle\":0,\"angleSign\":0,\"limit\":[],\"hinge\":\"normal\",\"graph\":{\"0\":[],\"context\":[],\"length\":1},\"scale\":{\"x\":1,\"y\":1},\"value\":15,\"size\":50,\"thick\":150,\"width\":\"0.83\",\"fill\":\"#eee\",\"bbox\":{\"x\":868,\"y\":247,\"width\":50,\"height\":150,\"top\":247,\"right\":918,\"bottom\":397,\"left\":868},\"realBbox\":[{\"x\":868,\"y\":247},{\"x\":918,\"y\":247},{\"x\":918,\"y\":397},{\"x\":868,\"y\":397}],\"params\":{\"bindBox\":true,\"move\":true,\"resize\":true,\"resizeLimit\":{\"width\":{\"min\":40,\"max\":200},\"height\":{\"min\":40,\"max\":400},\"columnHeight\":{\"min\":false,\"max\":false}},\"rotate\":true,\"columnHeight\":false,\"beamHeight\":false,\"waistSlabThickness\":true,\"stepsBase\":true,\"stepsHeight\":true,\"slabFloorOffsetHeight\":false,\"typeColumn\":false,\"typeBeam\":false,\"typeSlabFloor\":false,\"demolish\":false,\"width\":50,\"height\":150},\"volume\":\"NaN\",\"shelfID\":\"a\"}",
+            "created_at": "2024-02-10T04:13:54.000000Z",
+            "updated_at": "2024-02-10T04:13:54.000000Z",
+            "products": [
+                {
+                    "id": 1,
+                    "shelf_id": 4,
+                    "product_id": 1,
+                    "created_at": "2024-02-10 04:14:45",
+                    "updated_at": "2024-02-10 04:14:45",
+                    "product": {
+                        "id": 1,
+                        "product_name": "1",
+                        "price": 1,
+                        "image": "images\/products\/1.png",
+                        "created_at": "2024-02-10T04:14:17.000000Z",
+                        "updated_at": "2024-02-10T04:14:17.000000Z"
+                    }
+                },
+                {
+                    "id": 2,
+                    "shelf_id": 4,
+                    "product_id": 3,
+                    "created_at": "2024-02-10 04:14:47",
+                    "updated_at": "2024-02-10 04:14:47",
+                    "product": {
+                        "id": 3,
+                        "product_name": "3",
+                        "price": 3,
+                        "image": "images\/products\/3.jpg",
+                        "created_at": "2024-02-10T04:14:29.000000Z",
+                        "updated_at": "2024-02-10T04:14:29.000000Z"
+                    }
+                }
+            ]
+        }
+    ],
+    "bluetooth_devices": [
+        {
+            "id": 1,
+            "store_id": 1,
+            "device_name": "2",
+            "json_data": "{\"family\":\"free\",\"class\":\"column\",\"type\":\"simpleColumn\",\"x\":536,\"y\":382,\"angle\":0,\"angleSign\":0,\"limit\":[],\"hinge\":\"normal\",\"graph\":{\"0\":[],\"context\":[],\"length\":1},\"scale\":{\"x\":1,\"y\":1},\"value\":\"#eee\",\"size\":45,\"thick\":45,\"width\":\"0.75\",\"fill\":\"#eee\",\"bbox\":{\"x\":386,\"y\":232,\"width\":300,\"height\":300,\"top\":232,\"right\":686,\"bottom\":532,\"left\":386},\"realBbox\":[{\"x\":513.5,\"y\":359.5},{\"x\":558.5,\"y\":359.5},{\"x\":558.5,\"y\":404.5},{\"x\":513.5,\"y\":404.5}],\"params\":{\"bindBox\":true,\"move\":true,\"resize\":true,\"resizeLimit\":{\"width\":{\"min\":10,\"max\":1000},\"height\":{\"min\":10,\"max\":1000},\"columnHeight\":{\"min\":10,\"max\":1000}},\"rotate\":false,\"columnHeight\":true,\"beamHeight\":false,\"waistSlabThickness\":false,\"stepsBase\":false,\"stepsHeight\":false,\"slabFloorOffsetHeight\":false,\"typeColumn\":true,\"typeBeam\":false,\"typeSlabFloor\":false,\"demolish\":true,\"width\":45,\"height\":45},\"volume\":\"NaN\",\"beaconID\":\"2\"}",
+            "created_at": "2024-02-10T04:13:54.000000Z",
+            "updated_at": "2024-02-10T04:13:54.000000Z"
+        },
+        {
+            "id": 2,
+            "store_id": 1,
+            "device_name": "1",
+            "json_data": "{\"family\":\"free\",\"class\":\"column\",\"type\":\"simpleColumn\",\"x\":815,\"y\":463,\"angle\":0,\"angleSign\":0,\"limit\":[],\"hinge\":\"normal\",\"graph\":{\"0\":[],\"context\":[],\"length\":1},\"scale\":{\"x\":1,\"y\":1},\"value\":\"#eee\",\"size\":45,\"thick\":45,\"width\":\"0.75\",\"fill\":\"#eee\",\"bbox\":{\"x\":665,\"y\":313,\"width\":300,\"height\":300,\"top\":313,\"right\":965,\"bottom\":613,\"left\":665},\"realBbox\":[{\"x\":792.5,\"y\":440.5},{\"x\":837.5,\"y\":440.5},{\"x\":837.5,\"y\":485.5},{\"x\":792.5,\"y\":485.5}],\"params\":{\"bindBox\":true,\"move\":true,\"resize\":true,\"resizeLimit\":{\"width\":{\"min\":10,\"max\":1000},\"height\":{\"min\":10,\"max\":1000},\"columnHeight\":{\"min\":10,\"max\":1000}},\"rotate\":false,\"columnHeight\":true,\"beamHeight\":false,\"waistSlabThickness\":false,\"stepsBase\":false,\"stepsHeight\":false,\"slabFloorOffsetHeight\":false,\"typeColumn\":true,\"typeBeam\":false,\"typeSlabFloor\":false,\"demolish\":true,\"width\":45,\"height\":45},\"volume\":\"NaN\",\"beaconID\":\"1\"}",
+            "created_at": "2024-02-10T04:13:54.000000Z",
+            "updated_at": "2024-02-10T04:13:54.000000Z"
+        }
+    ]
+}

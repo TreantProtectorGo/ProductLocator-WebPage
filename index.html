@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="bootstrap.min.css" />
   <!-- <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> -->
   <link rel="stylesheet" href="style.css" />
+  <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
 </head>
 <style>
@@ -135,7 +136,7 @@
   </svg>
   <div style="display: none;">
     <span class="loading_screen">Loading..</span>
-    <header>Floor Plan App Ver.0.1</header>
+    <header>Do you have this?</header>
 
 
 
@@ -904,11 +905,13 @@
       }
     }, 500);
   }
-  function initJsonData(obj) {
+function initJsonData(obj) {
     var urlParams = new URLSearchParams(window.location.search);
     var startPoint = urlParams.get("start");
     var destination = urlParams.get("destination");
     var shelfName = urlParams.get("shelf");
+    
+    obj = JSON.parse(obj.store.json_Data);
 
     for (var i = 0; i < obj.data[0].objData.length; i++) {
       if (obj.data[0].objData[i].hasOwnProperty("beaconID")) {
@@ -1014,6 +1017,8 @@
 
     var boxArea = svg.getElementById('boxArea');
     var boxRib = svg.getElementById('boxRib');
+    var boxGrid = svg.getElementById('boxgrid');
+    var boxBind = svg.getElementById('boxbind');
 
     var boxcarpentry = svg.getElementById('boxcarpentry');
     var textElements = boxcarpentry.querySelectorAll('text');
@@ -1026,24 +1031,17 @@
 
     svg.removeChild(boxArea);
     svg.removeChild(boxRib);
-    svg.removeChild(boxRib);
+    svg.removeChild(boxGrid);
+    svg.removeChild(boxBind);
 
-   // Create a new image element
-   var img = new Image();
+    html2canvas(svg).then(function(canvas) {
+        var imgData = canvas.toDataURL('image/png');
+        var img = new Image();
+        img.src = imgData;
 
-    // Convert the SVG to a data URL
-    var svgData = new XMLSerializer().serializeToString(svg);
-    var svgBlob = new Blob([svgData], { type: 'image/svg+xml;charset=utf-8' });
-    var svgUrl = URL.createObjectURL(svgBlob);
-
-    // Set the source of the image element to the SVG data URL
-    img.src = svgUrl;
-
-    // Append the image element to the document body
-    document.body.removeChild(svg);
-    document.body.appendChild(img);
-
-
+        document.body.appendChild(img);
+      });
+    
   }
 
   function calculateDistance(obj1, obj2) {
@@ -1104,9 +1102,20 @@
 
 </script>
 <script type="module">
-  fetch("./FloorPlan_05-02-24.json")
+  fetch("./1.json")
     .then((response) => response.json())
-    .then((data) => initJsonData(data));
+    .then(data => {
+      const id = data.store.id;
+      const store_name = data.store.store_name;
+      const json_Data = data.store.json_Data;
+      const created_at = data.store.created_at;
+      const updated_at = data.store.updated_at;
+
+      const shelves_data = data.shelves;
+      const bluetooth_devices = data.bluetooth_devices;
+      const target_product = shelves_data.products;
+      initJsonData(data);
+    });
 </script>
 
 </html>
